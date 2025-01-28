@@ -1,6 +1,6 @@
 def Add(a,b):
   return a+b
-  def Display
+  def Display():
   print("Hello")
 
 if__name__=='__main__':
