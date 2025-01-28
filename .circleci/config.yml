@@ -9,13 +9,13 @@ jobs:
  docker:
  -image: python
  steps:
- -checkout
+ -checkout:
  -run: python Main1.py
  test:
  docker:
  -image: pyhton
  steps:
- -checkout
+ -checkout:
  -run: python Test.py
  #Orchestrate our job run sequence
  workflows:
